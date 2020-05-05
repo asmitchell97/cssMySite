@@ -58,8 +58,8 @@ p {
 }
 
 .topCloud {
-  position: absolute;
-  right: 300px;
+  position: relative;
+  left: 300px;
   top: 50px;
 }
 
@@ -90,15 +90,30 @@ p {
 }
 
 .computer128-img {
-  float: left;
   padding-right: 30px;
   width: 20%;
+  float: left;
+  margin: auto;
+  vertical-align: middle;
+  height: 100%
+}
+.skill-computer-div {
+  width: 70%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .electricGuitar128-img {
   float: right;
   padding-left: 30px;
   width: 20%;
+}
+
+.skill-guitar-div {
+  width: 70%;
+  height: 100%;
+  display: inline-block;
 }
 
 #mountainRule {
