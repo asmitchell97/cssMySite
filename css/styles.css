@@ -1,3 +1,107 @@
 body {
-  background-color: powderblue;
+  margin: 0;
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+  background-color: #eaeaea;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: #252a34;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  color: #252a34;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 30px auto 0 auto;
+  line-height: 2;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  color: #252a34;
+}
+
+p {
+  color: #252a34;
+}
+
+.mainTitle {
+  margin: 50px auto 0 auto;
+  /**font-family: 'Gruppo', cursive;*/
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.secondaryTitle {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.topContainer {
+  background-color: #08d9d6;
+  padding-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.middleContainer {
+  margin-top: 10px;
+  background-color: #eaeaea;
+}
+
+.bottomContainer {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+}
+
+.topCloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottomCloud {
+  position: relative;
+  bottom: 350px;
+  left: 50px;
+}
+
+.mountain {
+  position: relative;
+  right: 50px;
+}
+
+.profile {
+  margin-top: 10px;
+}
+
+.skill-row {
+  display: inline-block;
+  width: 50%;
+  margin: 40px auto 10px auto;
+  text-align: left;
+}
+
+.skill-text {
+  line-height: 2;
+}
+
+.computer128-img {
+  float: left;
+  padding-right: 30px;
+  width: 20%;
+}
+
+.electricGuitar128-img {
+  float: right;
+  padding-left: 30px;
+  width: 20%;
+}
+
+#mountainRule {
+  padding: 0;
+  margin: 0;
 }
