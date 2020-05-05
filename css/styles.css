@@ -40,21 +40,20 @@ p {
   font-family: 'Shadows Into Light', cursive;
 }
 
-.topContainer {
+.top-container {
   background-color: #08d9d6;
   padding-top: 10px;
   font-family: 'Open Sans', sans-serif;
 }
 
-.middleContainer {
+.middle-container {
   margin-top: 10px;
   background-color: #eaeaea;
 }
 
-.bottomContainer {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
+.bottom-container {
+  padding-top: 20px;
+  background-color: #ff2e63;
 }
 
 .topCloud {
@@ -91,7 +90,7 @@ p {
 
 .computer128-img {
   padding-right: 30px;
-  width: 20%;
+  width: 15%;
   float: left;
   margin: auto;
   vertical-align: middle;
@@ -116,7 +115,62 @@ p {
   display: inline-block;
 }
 
+.contact-me-btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Rajdhani', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px 20px 10px 20px;
+   background-color: #08D9D6;
+   text-shadow: 1px 1px 20px #EAEAEA;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+.contact-me-btn:hover {
+   background: #FF2E63;
+   border: solid #FF2E63 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.footer-link {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline;
+}
+
 #mountainRule {
   padding: 0;
   margin: 0;
+}
+
+#bottom-rule {
+  margin-bottom: 0;
+}
+
+#copyright-text {
+  color: white;
+}
+
+#twitter-img {
+  width: 2%;
+  display: inline-block;
+}
+
+#linkedin-img {
+  width: 5%;
+  display: inline-block;
+}
+
+#github-img {
+  width: 3%;
 }
